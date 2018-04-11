@@ -20,6 +20,6 @@
 -粒子群可以看成是让一群粒子在整个搜索空间搜索，这样可以比较好的避免陷入局部最优，但同时由于粒子数很多使得迭代一次所花费的时间也相对较多。
 
 [1]: https://blog.csdn.net/mmy1996/article/details/56280326  "POJ 2516 Minimum Cost(费用流 建图)"
-[2]：https://blog.csdn.net/google19890102/article/details/45395257 "优化算法——模拟退火算法"
+[2]: https://blog.csdn.net/google19890102/article/details/45395257 "优化算法——模拟退火算法"
 
 
