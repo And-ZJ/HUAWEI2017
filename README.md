@@ -8,7 +8,7 @@
 这道题是一道NP-hard问题，可以归为优化选址一类的问题中去。
 
 对于确定服务器的位置这道题就是一个经典的多源多汇费用流问题了，关于于多源多汇的费用流问题可以参考：[POJ 2516 Minimum Cost(费用流 建图)][1] 
- 
+ ![](https://img-blog.csdn.net/20170321144741853?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbW15MTk5Ng==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 这里简单说一下思路：建立一个超级源点(不是图中的点，自己虚拟的)连接到所有的服务器，再建一个超级汇点连接到所有消费节点，这样就变成了一个单源点单汇点的费用流问题，而费用流的求解可以用SPFA算法。
 
 由于题目要求还要输出路径，所以在费用流求完之后需要再进行一次深广搜找路径。
